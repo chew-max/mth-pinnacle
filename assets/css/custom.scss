@@ -6,36 +6,20 @@
   --mth-light: #f6f8fb;
   --mth-text: #1c2a39;
 }
-/* Full-width MTH homepage */
-
-main:has(.mth-home) {
-  max-width: 100% !important;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-}
-
-main:has(.mth-home) .container,
-main:has(.mth-home) .container-fluid,
-main:has(.mth-home) .container-lg,
-main:has(.mth-home) .container-xl {
-  max-width: 100% !important;
-}
-
-main:has(.mth-home) .row {
-  margin-left: 0;
-  margin-right: 0;
-}
-
-main:has(.mth-home) [class*="col-"] {
-  padding-left: 0;
-  padding-right: 0;
-}
-
-.mth-home {
+.mth-main {
   width: 100%;
   max-width: none;
+  padding: 0;
+  margin: 0;
 }
- 
+
+.mth-home-content {
+  width: 100%;
+  max-width: none;
+  padding: 0;
+  margin: 0;
+}
+
 
 .mth-hero {
   min-height: 78vh;

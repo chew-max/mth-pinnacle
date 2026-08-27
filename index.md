@@ -1,10 +1,11 @@
 ---
-layout: default
+layout: mth-home
 title: MTH Pinnacle
 ---
 
+<div class="mth-home">
+
 <section class="mth-hero">
-  <div class="mth-hero-inner">
 
 <img
   src="{{ '/assets/images/mth_logo_large.png' | relative_url }}"
@@ -73,3 +74,4 @@ title: MTH Pinnacle
   </a>
 
 </section>
+</div>

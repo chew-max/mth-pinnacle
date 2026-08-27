@@ -1,0 +1,8 @@
+title: MTH Pinnacle
+description: Wholesale & Distribution
+url: ""
+
+theme: minima
+
+plugins:
+  - jekyll-feed

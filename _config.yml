@@ -18,3 +18,18 @@ chulapa-skin:
     secondary: "#C6A15B"
     dark: "#06264D"
     light: "#F6F8FB"
+    
+    
+navbar:
+  style: fab
+
+  brand:
+    title: MTH Pinnacle
+    url: /mth-pinnacle/
+
+  nav:
+    - title: Home
+      url: /mth-pinnacle/
+
+    - title: Contact
+      url: /mth-pinnacle/contact.html

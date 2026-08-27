@@ -2,7 +2,7 @@ title: MTH Pinnacle
 description: Wholesale & Distribution
 url: ""
 
-theme: minima
+remote_theme: dieghernan/chulapa
 
 plugins:
   - jekyll-feed

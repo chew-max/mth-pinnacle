@@ -63,18 +63,29 @@ title: MTH Pinnacle
 
 <section class="mth-cta">
 
-  <div>
-    <p class="mth-eyebrow">MTH Pinnacle LLC</p>
-    <h2>Let's Build Something Together.</h2>
-    <p>
-      Looking for a wholesale or distribution partner? We'd like to hear about
-      your business needs.
-    </p>
-  </div>
+  <div class="mth-cta-inner">
 
-  <a href="{{ '/contact.html' | relative_url }}" class="mth-button mth-button-light">
-    Get In Touch
-  </a>
+    <div class="mth-cta-copy">
+
+      <p class="mth-eyebrow">MTH Pinnacle LLC</p>
+
+      <h2>Let's Build Something Together.</h2>
+
+      <p>
+        Looking for a wholesale or distribution partner? We'd like to hear about
+        your business needs.
+      </p>
+
+    </div>
+
+    <a
+      href="{{ '/contact.html' | relative_url }}"
+      class="mth-button mth-button-light"
+    >
+      Get In Touch
+    </a>
+
+  </div>
 
 </section>
 </div>

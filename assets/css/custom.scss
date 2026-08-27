@@ -6,144 +6,220 @@
   --mth-light: #f6f8fb;
   --mth-text: #1c2a39;
 }
-/* Full-width MTH homepage */
 
+/* ==============================
+   Page / Layout Reset
+   ============================== */
 
 .mth-home-content {
   width: 100%;
   max-width: none;
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
 .mth-home {
   width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 0;
 }
+
+/* ==============================
+   Hero
+   ============================== */
+
 .mth-hero {
   width: 100%;
   min-height: 78vh;
+
   display: flex;
   align-items: center;
   justify-content: center;
+
   padding: 5rem 1.5rem;
-  text-align: center;
+
   background: var(--mth-white);
+  text-align: center;
 }
 
 .mth-hero-inner {
   width: 100%;
   max-width: 850px;
-  margin-left: auto;
-  margin-right: auto;
+
+  margin: 0 auto;
+  padding: 0;
 }
 
 .mth-logo {
   display: block;
+
   width: min(500px, 90%);
   height: auto;
+
   margin: 0 auto 2.5rem;
 }
 
 .mth-eyebrow {
-  margin-bottom: 0.75rem;
+  margin: 0 0 0.75rem;
+
   color: var(--mth-blue);
+
   font-size: 0.85rem;
   font-weight: 700;
   letter-spacing: 0.18em;
+
   text-transform: uppercase;
 }
 
-.mth-hero h1,
-.mth-section h2,
-.mth-cta h2 {
-  color: var(--mth-navy);
-  font-weight: 700;
-}
-
 .mth-hero h1 {
-  margin-bottom: 1.25rem;
+  max-width: 850px;
+
+  margin: 0 auto 1.25rem;
+
+  color: var(--mth-navy);
+
   font-size: clamp(2.25rem, 5vw, 4.5rem);
+  font-weight: 700;
   line-height: 1.05;
 }
 
 .mth-lead {
   max-width: 700px;
+
   margin: 0 auto 2rem;
+
   color: var(--mth-text);
+
   font-size: 1.15rem;
   line-height: 1.8;
 }
 
+/* ==============================
+   Buttons
+   ============================== */
+
 .mth-button {
   display: inline-block;
+
   padding: 0.9rem 1.6rem;
+
   border: 2px solid var(--mth-blue);
   border-radius: 4px;
+
   background: var(--mth-blue);
   color: var(--mth-white);
+
   font-weight: 700;
   text-decoration: none;
+
   transition:
     transform 0.2s ease,
-    background 0.2s ease;
+    background 0.2s ease,
+    border-color 0.2s ease;
 }
 
 .mth-button:hover {
   transform: translateY(-2px);
+
   background: var(--mth-navy);
   border-color: var(--mth-navy);
+
   color: var(--mth-white);
   text-decoration: none;
 }
 
+/* ==============================
+   What We Do
+   ============================== */
+
 .mth-section {
   width: 100%;
+
   padding: 6rem 1.5rem;
-  text-align: center;
+
   background: var(--mth-light);
+  text-align: center;
 }
 
-.mth-section > h2 {
-  margin-bottom: 3rem;
+.mth-section > .mth-section-inner {
+  width: 100%;
+  max-width: 1000px;
+
+  margin: 0 auto;
+}
+
+.mth-section h2 {
+  margin: 0 0 3rem;
+
+  color: var(--mth-navy);
+
   font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 700;
 }
 
 .mth-services {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
+
   gap: 2rem;
+
   width: 100%;
   max-width: 900px;
-  margin-left: auto;
-  margin-right: auto;
+
+  margin: 0 auto;
 }
 
 .mth-service {
   padding: 2.5rem;
+
   background: var(--mth-white);
+
   border-top: 4px solid var(--mth-gold);
+
   box-shadow: 0 8px 30px rgba(6, 38, 77, 0.08);
 }
 
 .mth-service h3 {
-  margin-bottom: 1rem;
+  margin: 0 0 1rem;
+
   color: var(--mth-navy);
 }
 
 .mth-service p {
-  margin-bottom: 0;
+  margin: 0;
+
   line-height: 1.7;
 }
 
+/* ==============================
+   CTA
+   ============================== */
+
 .mth-cta {
   width: 100%;
+
+  padding: 5rem 1.5rem;
+
+  background: var(--mth-navy);
+  color: var(--mth-white);
+}
+
+.mth-cta-inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
   gap: 3rem;
-  padding: 5rem max(1.5rem, calc((100vw - 1100px) / 2));
-  background: var(--mth-navy);
-  color: var(--mth-white);
+
+  width: 100%;
+  max-width: 1100px;
+
+  margin: 0 auto;
+}
+
+.mth-cta-copy {
+  max-width: 650px;
 }
 
 .mth-cta .mth-eyebrow {
@@ -151,28 +227,39 @@
 }
 
 .mth-cta h2 {
+  margin: 0 0 1rem;
+
   color: var(--mth-white);
+
+  font-weight: 700;
 }
 
 .mth-cta p {
-  max-width: 650px;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .mth-button-light {
   flex-shrink: 0;
+
   background: var(--mth-white);
   border-color: var(--mth-white);
+
   color: var(--mth-navy);
 }
 
 .mth-button-light:hover {
   background: var(--mth-gold);
   border-color: var(--mth-gold);
+
   color: var(--mth-navy);
 }
 
+/* ==============================
+   Mobile
+   ============================== */
+
 @media (max-width: 768px) {
+
   .mth-hero {
     min-height: auto;
     padding: 3.5rem 1.25rem;
@@ -182,13 +269,20 @@
     width: min(380px, 100%);
   }
 
+  .mth-section {
+    padding: 4rem 1.25rem;
+  }
+
   .mth-services {
     grid-template-columns: 1fr;
   }
 
   .mth-cta {
+    padding: 4rem 1.25rem;
+  }
+
+  .mth-cta-inner {
     flex-direction: column;
     align-items: flex-start;
-    padding: 4rem 1.5rem;
   }
 }

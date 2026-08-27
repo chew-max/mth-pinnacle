@@ -33,3 +33,6 @@ navbar:
 
     - title: Contact
       url: /mth-pinnacle/contact.html
+      
+footer:
+  copyright: "© 2026 MTH Pinnacle LLC. All Rights Reserved."

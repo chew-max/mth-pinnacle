@@ -3,30 +3,87 @@ layout: default
 title: Contact MTH Pinnacle
 ---
 
-# Contact MTH Pinnacle
+<div class="mth-contact">
 
-Interested in working with us?
+  <section class="mth-contact-header">
+    <p class="mth-eyebrow">Contact</p>
 
-Whether you're looking for wholesale products, distribution opportunities, or simply want to learn more about MTH Pinnacle, we'd love to hear from you.
+    <h1>Let's Talk Business.</h1>
 
-## Get in Touch
+    <p>
+      Whether you're interested in wholesale opportunities, distribution,
+      sourcing, or working with MTH Pinnacle, we'd be happy to hear from you.
+    </p>
+  </section>
 
-Please complete the form below and a member of our team will get back to you.
+  <section class="mth-contact-card">
 
-<form action="#" method="POST">
+    <form
+      action="YOUR-FORM-ENDPOINT"
+      method="POST"
+      class="mth-contact-form"
+    >
 
-  <label for="name">Name</label>
-  <input type="text" id="name" name="name" required>
+      <div class="mth-form-group">
+        <label for="name">Name</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          autocomplete="name"
+          required
+        >
+      </div>
 
-  <label for="email">Email</label>
-  <input type="email" id="email" name="email" required>
+      <div class="mth-form-group">
+        <label for="company">Company</label>
+        <input
+          type="text"
+          id="company"
+          name="company"
+          autocomplete="organization"
+        >
+      </div>
 
-  <label for="phone">Phone</label>
-  <input type="tel" id="phone" name="phone">
+      <div class="mth-form-group">
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          autocomplete="email"
+          required
+        >
+      </div>
 
-  <label for="message">Message</label>
-  <textarea id="message" name="message" rows="6" required></textarea>
+      <div class="mth-form-group">
+        <label for="phone">Phone</label>
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          autocomplete="tel"
+        >
+      </div>
 
-  <button type="submit">Send Message</button>
+      <div class="mth-form-group mth-form-full">
+        <label for="message">How can we help?</label>
+        <textarea
+          id="message"
+          name="message"
+          rows="7"
+          required
+        ></textarea>
+      </div>
 
-</form>
+      <div class="mth-form-full">
+        <button type="submit" class="mth-button">
+          Send Message
+        </button>
+      </div>
+
+    </form>
+
+  </section>
+
+</div>

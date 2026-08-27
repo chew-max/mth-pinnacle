@@ -9,8 +9,8 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-include-cache
-  
-  chulapa-skin:
+
+chulapa-skin:
   vars:
     primary: "#0D5FB8"
     secondary: "#C6A15B"

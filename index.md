@@ -27,7 +27,6 @@ title: MTH Pinnacle
       Contact Us
     </a>
 
-  </div>
 </section>
 
 <section class="mth-section">

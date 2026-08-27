@@ -1,6 +1,8 @@
 title: MTH Pinnacle
 description: Wholesale & Distribution
-url: ""
+
+url: "https://chew-max.github.io"
+baseurl: "/mth-pinnacle"
 
 remote_theme: dieghernan/chulapa
 

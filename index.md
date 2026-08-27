@@ -6,11 +6,11 @@ title: MTH Pinnacle
 <section class="mth-hero">
   <div class="mth-hero-inner">
 
-    <img
-      src="{{ '/assets/images/mth_logo_large.png' | relative_url }}"
-      alt="MTH Pinnacle LLC"
-      class="mth-logo"
-    >
+<img
+  src="{{ '/assets/images/mth_logo_large.png' | relative_url }}"
+  alt="MTH Pinnacle LLC"
+  class="mth-logo"
+>
 
     <p class="mth-eyebrow">Wholesale & Distribution</p>
 

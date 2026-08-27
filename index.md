@@ -7,11 +7,13 @@ title: MTH Pinnacle
 
 <section class="mth-hero">
 
-<img
-  src="{{ '/assets/images/mth_logo_large.png' | relative_url }}"
-  alt="MTH Pinnacle LLC"
-  class="mth-logo"
->
+  <div class="mth-hero-inner">
+
+    <img
+      src="{{ '/assets/images/mth_logo_large.png' | relative_url }}"
+      alt="MTH Pinnacle LLC"
+      class="mth-logo"
+    >
 
     <p class="mth-eyebrow">Wholesale & Distribution</p>
 
@@ -26,6 +28,8 @@ title: MTH Pinnacle
     <a href="{{ '/contact.html' | relative_url }}" class="mth-button">
       Contact Us
     </a>
+
+  </div>
 
 </section>
 

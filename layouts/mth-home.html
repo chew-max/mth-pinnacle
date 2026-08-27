@@ -8,40 +8,10 @@ layout: minimal
   projects=page.project_links
 %}
 
-<main class="mth-main flex-fill">
-
-  {% if page.show_breadcrumb or page.show_date or page.show_sociallinks %}
-    {% include components/breadcrumbdatesocial.html %}
-  {% endif %}
+<main class="container-fluid p-0 flex-fill">
 
   <article id="maincontent" class="mth-home-content e-content">
     {{ content }}
   </article>
 
 </main>
-
-{% if page.show_bottomnavs %}
-  {% include components/navbeforeafter.html %}
-{% endif %}
-
-{% if page.show_categories %}
-  {% assign size = page.categories | size %}
-  {% if size > 0 %}
-    {% include components/categories.html %}
-  {% endif %}
-{% endif %}
-
-{% if page.show_tags %}
-  {% assign size = page.tags | size %}
-  {% if size > 0 %}
-    {% include components/tags.html %}
-  {% endif %}
-{% endif %}
-
-{% if page.show_related %}
-  {% include components/related.html %}
-{% endif %}
-
-{% if page.show_random %}
-  {% include components/random.html %}
-{% endif %}

@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Contact MTH Pinnacle
+title: Contact
+description: "Contact MTH Pinnacle LLC to discuss your wholesale, sourcing, and distribution needs."
 ---
 
 <div class="mth-contact">

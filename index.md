@@ -1,6 +1,7 @@
 ---
 layout: mth-home
-title: MTH Pinnacle
+title: Wholesale & Distribution
+description: "MTH Pinnacle LLC provides reliable wholesale and distribution solutions, dependable sourcing, responsive service, and access to a diverse range of products."
 ---
 
 <div class="mth-home">

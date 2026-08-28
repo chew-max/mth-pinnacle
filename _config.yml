@@ -1,9 +1,15 @@
 title: MTH Pinnacle
-description: Wholesale & Distribution
+description: "MTH Pinnacle LLC provides wholesale and distribution solutions with dependable sourcing, responsive service, and access to a diverse range of products."
 
 url: "https://chew-max.github.io"
 baseurl: "/mth-pinnacle"
 
+author:
+  name: MTH Pinnacle LLC
+
+logo: /assets/images/mth_logo_large.png
+
+lang: en_US
 remote_theme: dieghernan/chulapa
 
 plugins:
@@ -60,3 +66,10 @@ footer:
     - label: Instagram
       icon: "fab fa-instagram"
       url: "https://www.instagram.com/..."
+      
+      
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/mth-social-card.png

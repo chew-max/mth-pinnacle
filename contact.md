@@ -3,22 +3,16 @@ layout: default
 title: Contact
 description: "Contact MTH Pinnacle LLC to discuss your wholesale, sourcing, and distribution needs."
 ---
-
-<div class="mth-contact">
-
-
-  <section class="mth-contact">
+<section class="mth-contact">
   <div class="mth-contact-inner">
 
     <div class="mth-contact-heading">
-    <p class="mth-eyebrow">Contact</p>
-
-    <h1>Let's Talk Business.</h1>
-
-    <p>
-      Whether you're interested in wholesale opportunities, distribution,
-      sourcing, or working with MTH Pinnacle, we'd be happy to hear from you.
-    </p>
+      <span class="mth-eyebrow">CONTACT MTH PINNACLE</span>
+      <h1>Let's Talk Business.</h1>
+      <p>
+        Tell us a little about what you're looking for and we'll get back
+        to you as soon as possible.
+      </p>
     </div>
 
     <div class="mth-form-embed">
@@ -36,4 +30,12 @@ description: "Contact MTH Pinnacle LLC to discuss your wholesale, sourcing, and 
   </div>
 </section>
 
-</div>
+
+
+
+
+
+
+
+
+

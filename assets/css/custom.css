@@ -71,7 +71,7 @@
 .mth-eyebrow {
   margin: 0 0 0.75rem;
 
-  color: var(--mth-white);
+  color: var(--mth-gold);
 
   font-size: 0.85rem;
   font-weight: 700;
@@ -484,7 +484,7 @@
 .mth-eyebrow {
   display: block;
   margin-bottom: 0.75rem;
-  color: var(--mth-gold);;
+  color: var(--mth-gold)
   font-size: 0.85rem;
   font-weight: 700;
   letter-spacing: 0.16em;

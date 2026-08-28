@@ -25,14 +25,14 @@ navbar:
 
   brand:
     title: MTH Pinnacle
-    url: /mth-pinnacle/
+    url: "/mth-pinnacle"
 
   nav:
     - title: Home
-      url: /mth-pinnacle/
+      url: "/"
 
     - title: Contact
-      url: /mth-pinnacle/contact.html
+      url: "/contact.html"
       
 footer:
   copyright: "© 2026 MTH Pinnacle LLC. All Rights Reserved."

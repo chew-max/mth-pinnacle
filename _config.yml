@@ -69,6 +69,6 @@ footer:
       
 defaults:
   - scope:
-      path: ""
+      path: "/assets/images/mth-social-card.png"
     values:
       image: /assets/images/mth-social-card.png

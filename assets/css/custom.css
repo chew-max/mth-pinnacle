@@ -91,7 +91,7 @@
   font-weight: 700;
   line-height: 1.05;
 }
-.navbar-chulapa-fab .navbar-toggler-icon {
+.navbar-chulapa-fab .navbar-toggler-icon, .navbar-chulapa-fab .navbar-toggler-icon:before, .navbar-chulapa-fab .navbar-toggler-icon:after {
 	background-color: var(--mth-white);
 }
 

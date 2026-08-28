@@ -71,7 +71,7 @@
 .mth-eyebrow {
   margin: 0 0 0.75rem;
 
-  color: white;
+  color: var(--mth-white);
 
   font-size: 0.85rem;
   font-weight: 700;
@@ -82,8 +82,11 @@
 
 .mth-hero h1 {
   max-width: 850px;
+
   margin: 0 auto 1.25rem;
-  color: white;
+
+  color: var(--mth-white);
+
   font-size: clamp(2.25rem, 5vw, 4.5rem);
   font-weight: 700;
   line-height: 1.05;

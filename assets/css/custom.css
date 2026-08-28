@@ -91,6 +91,9 @@
   font-weight: 700;
   line-height: 1.05;
 }
+.navbar-chulapa-fab .navbar-toggler-icon {
+	background-color: var(--mth-white);
+}
 
 .mth-lead {
   max-width: 700px;

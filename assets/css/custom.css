@@ -31,7 +31,7 @@
 
 .mth-hero {
   width: 100%;
-  min-height: 78vh;
+  min-height: 720px;
 
   display: flex;
   align-items: center;
@@ -39,16 +39,24 @@
 
   padding: 5rem 1.5rem;
 
-  background: var(--mth-white);
+  background:
+    linear-gradient(
+      rgba(6, 38, 77, 0.55),
+      rgba(6, 38, 77, 0.55)
+    ),
+    url("../images/mth-hero-nyc.png");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
   text-align: center;
 }
 
 .mth-hero-inner {
   width: 100%;
   max-width: 850px;
-
   margin: 0 auto;
-  padding: 0;
 }
 
 .mth-logo {
@@ -261,11 +269,10 @@
 @media (max-width: 768px) {
 
   .mth-hero {
-    min-height: auto;
-    padding: 3.5rem 1.25rem;
-	text-align: center;
-  }
-
+    min-height: 650px;
+    padding: 4rem 1.25rem;
+    background-position: center center;
+  } 
   .mth-logo {
     width: min(380px, 100%);
   }

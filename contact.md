@@ -17,74 +17,31 @@ description: "Contact MTH Pinnacle LLC to discuss your wholesale, sourcing, and 
     </p>
   </section>
 
-  <section class="mth-contact-card">
+  <section class="mth-contact">
+  <div class="mth-contact-inner">
 
-    <form
-      action="YOUR-FORM-ENDPOINT"
-      method="POST"
-      class="mth-contact-form"
-    >
+    <div class="mth-contact-heading">
+      <span class="mth-eyebrow">CONTACT MTH PINNACLE</span>
+      <h1>Let's Talk Business.</h1>
+      <p>
+        Tell us a little about what you're looking for and we'll get back
+        to you as soon as possible.
+      </p>
+    </div>
 
-      <div class="mth-form-group">
-        <label for="name">Name</label>
-        <input
-          type="text"
-          id="name"
-          name="name"
-          autocomplete="name"
-          required
-        >
-      </div>
+    <div class="mth-form-embed">
+      <iframe
+        src="https://docs.google.com/forms/d/e/1FAIpQLScJ6FvzDPj5YNYnVrslyVlpI3LPuB4Erl6GJUdKs-n5w2HErQ/viewform?usp=header"
+        width="100%"
+        height="950"
+        frameborder="0"
+        marginheight="0"
+        marginwidth="0">
+        Loading…
+      </iframe>
+    </div>
 
-      <div class="mth-form-group">
-        <label for="company">Company</label>
-        <input
-          type="text"
-          id="company"
-          name="company"
-          autocomplete="organization"
-        >
-      </div>
-
-      <div class="mth-form-group">
-        <label for="email">Email</label>
-        <input
-          type="email"
-          id="email"
-          name="email"
-          autocomplete="email"
-          required
-        >
-      </div>
-
-      <div class="mth-form-group">
-        <label for="phone">Phone</label>
-        <input
-          type="tel"
-          id="phone"
-          name="phone"
-          autocomplete="tel"
-        >
-      </div>
-
-      <div class="mth-form-group mth-form-full">
-        <label for="message">How can we help?</label>
-        <textarea
-          id="message"
-          name="message"
-          rows="7"
-          required
-        ></textarea>
-      </div>
-
-      <div class="mth-form-full">
-        <button type="submit" class="mth-button">
-          Send Message
-        </button>
-      </div>
-
-    </form>
-
-  </section>
+  </div>
+</section>
 
 </div>

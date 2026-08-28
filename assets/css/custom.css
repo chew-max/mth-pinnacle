@@ -450,3 +450,55 @@
   font-size: 1.1rem;
   line-height: 1.7;
 }
+
+.mth-contact {
+  padding: 5rem 1.5rem;
+  background: #f6f8fb;
+}
+
+.mth-contact-inner {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.mth-contact-heading {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.mth-contact-heading h1 {
+  color: #06264d;
+  font-size: clamp(2.25rem, 5vw, 3.5rem);
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.mth-contact-heading p {
+  max-width: 650px;
+  margin: 0 auto;
+  color: #1c2a39;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.mth-eyebrow {
+  display: block;
+  margin-bottom: 0.75rem;
+  color: #0d5fb8;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+}
+
+.mth-form-embed {
+  background: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 35px rgba(6, 38, 77, 0.08);
+}
+
+.mth-form-embed iframe {
+  display: block;
+  width: 100%;
+  border: 0;
+}
